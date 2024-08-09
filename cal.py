@@ -17,7 +17,7 @@ def divide(x, y):
     return x / y
 
 def calculator():
-    st.title("Simple Calculator")
+    st.title("Mughisa Zulfiqar Calculator")
 
     num1 = st.number_input("Enter first number", value=0)
     operator = st.selectbox("Select operator", ("+", "-", "*", "/"))
